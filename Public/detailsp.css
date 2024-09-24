@@ -1,0 +1,56 @@
+   #details-container {
+            border: 2px solid #000; /* מסגרת בצבע שחור */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: right;
+            direction: rtl; /* הגדרת כיוון הטקסט מימין לשמאל */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto; /* לשמירת פרופורציות */
+            border: 1px solid #000; /* מסגרת בצבע שחור */
+            border-radius: 5px;
+        }
+
+        .button-container {
+            margin-top: 10px; /* רווח מעל הכפתור */
+        }
+
+        .button {
+            border: 1px solid #ccc; /* מסגרת צבע אפור בהיר */
+            border-radius: 10px;
+            margin-top: 5px; /* רווח מעל הכפתור */
+            padding: 5px 10px; /* רווח לפני ואחרי */
+            margin-right: 5px;
+            cursor: pointer;
+            width: 5%;
+            text-align:center;
+        }
+
+        .selected {
+            background-color: lightgray; /* צבע רקע אפור בהיר */
+        }
+
+        #checkout-button {
+            font-size: 16px; /* גודל הטקסט בכפתור */
+            padding: 10px 20px; /* רווח לפני ואחרי */
+            margin-top: 20px; /* רווח מעל הכפתור */
+            background-color: #f1f1f1; /* צבע רקע הכפתור בירוק */
+            color: black; /* צבע טקסט לבן */
+            border: 3px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #quantity-selector {
+            display: flex;
+            margin-top: 20px; /* רווח מעל הכפתור */
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .quantity-input {
+            margin-left: 10px;
+        }
