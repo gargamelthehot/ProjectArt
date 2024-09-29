@@ -1,0 +1,289 @@
+[
+
+    {
+    "img": {
+        "url": "pictureproject/blackwhait/quietnight.jpg"
+    },
+    "name": "לילה שקט",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונה מעוצבת מודפסת על זכוכית",
+    "price": 259.00 ,
+    "serial": 1
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/gallhorses.jpg"
+    },
+    "name": "סוסים בתנועה",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונה מעוצבת סוסים דוהרים בים בליל ירח מלא על",
+    "price": 249.00 ,
+    "serial": 2
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/darknight.jpg"
+    },
+    "name": "לילה אפל",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונת נוף  מעוצבת ליילית וחורפית",
+    "price": 229.00 ,
+    "serial": 3
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/bridge.jpg"
+    },
+    "name": "גשר ניו יורק",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונת עיר מעוצבת על זכוכית לבית ולמשרד",
+    "price": 259.00 ,
+    "serial": 4
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/newyork.jpg"
+    },
+    "name": "ניו יורק",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונת זכוכית של העיר ניו יורק בצבעי מים",
+    "price": 269.00 ,
+    "serial": 5
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/nesher.jpg"
+    },
+    "name": "כנפי מלאך",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "תמונה מעוצבת המתארת את הניגוד, אומנות בד",
+    "price": 279.00 ,
+    "serial": 6
+},
+
+ {
+    "img": {
+        "url": "pictureproject/blackwhait/horse.jpg"
+    },
+    "name": "סוס נורדי",
+    "categoryname": "תמונה שחור לבן",
+    "descrietion": "ציור שמן הדפס בעל חיים, סוס בדהירה קלה",
+    "price": 249.00 ,
+    "serial": 7
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/tsunset.jpg"
+    },
+    "name": "עץ החיים",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונת נוף שקיעה המתארת את עץ החיים, 5 חלקים",
+    "price": 469.00 ,
+    "serial": 8
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/stormysea.jpg"
+    },
+    "name": "תחושת המרחק",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונת ים סוער בשקיעה, תמונה 5 חלקים",
+    "price": 469.00 ,
+    "serial": 9
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/sunset.jpg"
+    },
+    "name": "שקיעה",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונה שקיעה רגועה בעיר עם ציפורים נודדות, תמונת 5 חלקים",
+    "price": 469.00 ,
+    "serial": 10
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/wall.jpg"
+    },
+    "name": "ירושלים",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונה מעוצבת המייצגת את הכותל באור מתגעגע, תמונת 5 חלקים",
+    "price": 469.00 ,
+    "serial": 11
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/mandb.jpg"
+    },
+    "name": "ציפורים בין ההרים",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונה בשמן המתארת את שלוות הנדידה בהרים ריקים מאדם, תמונת 3 חלקים",
+    "price": 429.00 ,
+    "serial": 12
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/nightcity.jpg"
+    },
+    "name": "רעש הלילה",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונת נוף עירוני המציגה את החיים שבלילה, תמונת 5 חלקים ",
+    "price": 469.00 ,
+    "serial": 13
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/seasunrise.jpg"
+    },
+    "name": "זריחה בים",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "מונת נוףהמתארת את הזריחה בחוף ים עליז, תמונת 5 חלקים",
+    "price": 469.00 ,
+    "serial": 14
+},
+
+ {
+    "img": {
+        "url": "pictureproject/part/tsun.jpg"
+    },
+    "name": "עץ התקווה",
+    "categoryname": "תמונה חלקים",
+    "descrietion": "תמונה המתארת צילום עץ מהאדמה שקרני השמש מציצות דרך הענפים, תמונת 5 חלקים",
+    "price": 469.00 ,
+    "serial": 15
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/turquoise.jpg"
+    },
+    "name": "הביחד והלבד",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות מעוצבות לבית בגוון הטורקיז לבן, המתארות ים בשילוב פרחים",
+    "price": 479.00 ,
+    "serial": 16
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/sea.jpg"
+    },
+    "name": "השקט בלבד",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות שליו המציג אישה המטיילת ללא דאגות באזור הים",
+    "price": 459.00 ,
+    "serial": 17
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/woman.jpg"
+    },
+    "name": "העתיד הקרוב",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות בגוון טורקיז שחור המתאר אישה הצופה על העתיד בביטחון",
+    "price": 469.00 ,
+    "serial": 18
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/colorful.jpg"
+    },
+    "name": "מרחב הצבעים",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות צבעוני המתאר את היופי הקיים בשילוב הצבעים",
+    "price": 489.00 ,
+    "serial": 19
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/leaves.jpg"
+    },
+    "name": "טבע האישה",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות בגוון ירוק לבן המתאר את היופי הטיבעי שבאישה וכן מציג את החיות שבה",
+    "price": 489.00 ,
+    "serial": 20
+},
+
+ {
+    "img": {
+        "url": "pictureproject/set/pink.jpg"
+    },
+    "name": "שושנה",
+    "categoryname": "סט תמונות",
+    "descrietion": "סט תמונות מעוצבות בגוון ורוד עתיק ושמנת המתאר את יופי המחר",
+    "price": 469.00 ,
+    "serial": 21
+},
+
+ {
+    "img": {
+        "url": "pictureproject/canvas/awoman.jpg"
+    },
+    "name": "קסם היופי",
+    "categoryname": "תמונת קנבס",
+    "descrietion": "תמונת קנבס מעוצבת המציגה אישה אפריקאית ביופי צבעוני ושקט",
+    "price": 399.00 ,
+    "serial": 22
+},
+
+ {
+    "img": {
+        "url": "pictureproject/canvas/colort.jpg"
+    },
+    "name": "פריחת האביב",
+    "categoryname": "תמונת קנבס",
+    "descrietion": "תמונה מעוצבת המציגה את היופי הצבעוני והחי שבאביב",
+    "price": 349.00 ,
+    "serial": 23
+},
+
+{
+    "img": {
+        "url": "pictureproject/canvas/forest.jpg"
+    },
+    "name": "יער הסתיו",
+    "categoryname": "תמונת קנבס",
+    "descrietion": "תמונה מעוצבת של יער חשוב בתקופת הסתיו עם קרני שמש הנותנות אורת תקווה",
+    "price": 359.00 ,
+    "serial": 24
+},
+
+{
+    "img": {
+        "url": "pictureproject/canvas/colorway.jpg"
+    },
+    "name": "הצבעוניות שבגשם",
+    "categoryname": "תמונת קנבס",
+    "descrietion": "תמונה המתארת זוג ההולכים בדרך רטובה מגשם הברכה ולאורך הדרך עצים חגיגיים",
+    "price": 389.00 ,
+    "serial": 25
+},
+
+ {
+    "img": {
+        "url": "pictureproject/canvas/clouds.jpg"
+    },
+    "name": "עננים מופשטים",
+    "categoryname": "תמונת קנבס",
+    "descrietion": "תמונת קנבס בשמן המתארת את העוצמה החבויה בעננים הניראים פשוטים",
+    "price": 379.00 ,
+    "serial": 26
+}
+]
+

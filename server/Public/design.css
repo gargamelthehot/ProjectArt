@@ -1,0 +1,124 @@
+lable {
+  margin: 0 3px;
+}
+
+body {
+  text-align: right;
+  direction: rtl;
+}
+
+.cn {
+  display: flex;
+}
+
+.acn {
+  flex: 2;
+
+}
+
+.imcn {
+  text-align: left;
+  direction: rtl;
+  flex: 8;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.acn a {
+  font-size: 21px;
+}
+
+.acn a:hover {
+  color: #777;
+}
+
+p {
+  font-size: 20px;
+  padding: 2px;
+}
+
+span {
+  margin: 15px 15px;
+
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 35%;
+  height: 40%;
+
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+  padding: 16px 30px;
+  border: 3px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+div.gallery {
+  margin: 16px;
+  border: 3px solid #ccc;
+  float: right;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 99%;
+  height: 40%;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+a:hover {
+  color: #777;
+}
+
+
+.gallery .aaa {
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 13px;
+
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}

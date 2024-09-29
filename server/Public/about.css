@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f1f1f1; /* Light gray background */
+    border-radius: 8px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+}
+
+header {
+    font-size: 20px;
+    padding: 16px 30px;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:silver; /* Dark gray header background */
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.about-us {
+    text-align: right;
+}
+
+h2 {
+    color: #ff4d6e; /* Dark pink heading color */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #ff4d6e; /* Dark pink button background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3280; /* Lighter pink on hover */
+}

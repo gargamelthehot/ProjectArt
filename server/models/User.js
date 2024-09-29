@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
     lastName: String,
     email: {
         type:String,
-        require:truh
+        require:true
     },
 });
 //יצוא הפונקציה

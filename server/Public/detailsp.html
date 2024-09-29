@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="mainp.css">
+    <link rel="stylesheet" href="detailsp.css">
+    <title>פרטי הפריט</title>
+
+</head>
+
+<body onload="showProductFromLocalStorage();">
+
+    <div class="header">
+        <span class="logo">
+            <a href="mainp.html">
+                <img src="photo.png" alt="logo">
+            </a>
+
+        </span>
+        <h1>אומנות התמונה</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="about.html">אודותנו</a>
+        <a href="galery.html" id="images-link">תמונות <span class="arrow">&#9660;</span></a>
+        <div id="select" class="select">
+            <a href="bwpicture.html"> תמונות שחור לבן</a>
+            <a href="partpicture.html"> תמונות בחלקים</a>
+            <a href="setpicture.html"> סט תמונות</a>
+            <a href="canpicture.html"> תמונות קנבס</a>
+        </div>      
+        <a href="shopcart.html">סל קניות</a>
+        <a href="branches.html">סניפים</a>
+        <!-- <button id="button" onclick="check()" style="float:left">התחברות</button>
+        <div id="result" style="color: white; margin-top: 12px; margin-left: 20px; float: left;"></div> -->
+    </div>
+
+    <!-- פרטי הפריט -->
+    <div id="details-container">
+        <h2>פרטי הפריט</h2>
+        <img src="#" id="image-name" alt="תמונת הפריט" style="max-width:30%"><!-- יש טקסט אלטרנטיבי -->
+        <p><strong>שם הפריט:</strong> <span id="item-name"></span></p><!-- מדגיש את הכיתוב -->
+        <p><strong>שם הקטגוריה:</strong> <span id="category-name"></span></p>
+        <p><strong>תיאור:</strong> <span id="description-name"></span></p>
+        <p><strong>מחיר:</strong> ₪<span id="item-price"></span></p>
+        <p><strong>מספר סידורי:</strong> <span id="serial-number"></span></p>
+
+        <!-- שדות הקלט עבור הכמות -->
+        <div id="quantity-selector">
+            <label for="quantity">בחר כמות:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" value="1" oninput="validateQuantity(this)">
+        </div>
+
+
+        <button id="checkout-button" onclick="addToCart()">הוספה לסל הקניות</button>
+    </div>
+
+    <div class="footer">
+        <h4>:לכל פניה ושאלה נשמח לענות בהקדם בכתובת</h4>
+        <h4>artPicture93@gmail.com</h4>
+    </div>
+
+    <script src="code.js"></script>
+
+</body>
+
+</html>

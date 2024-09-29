@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <link rel="stylesheet" href="mainp.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopcart.css">
+
+    <!-- אייקון להסרה מהסל -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <title>סל קניות</title>
+
+</head>
+
+<body onload="displayItems(); updatePrice();">
+
+    <div class="header">
+        <span class="logo">
+            <a href="mainp.html">
+                <img src="photo.png" alt="logo">
+            </a>
+
+        </span>
+        <h1>אומנות התמונה</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="about.html">אודותנו</a>
+        <a href="galery.html" id="images-link">תמונות <span class="arrow">&#9660;</span></a>
+        <div id="select" class="select">
+            <a href="bwpicture.html"> תמונות שחור לבן</a>
+            <a href="partpicture.html"> תמונות בחלקים</a>
+            <a href="setpicture.html"> סט תמונות</a>
+            <a href="canpicture.html"> תמונות קנבס</a>
+        </div>       
+        <a href="shopcart.html">סל קניות</a>
+        <a href="branches.html">סניפים</a>
+        <!-- <button id="button" onclick="check()" style="float:left">התחברות</button>
+        <div id="result" style="color: white; margin-top: 12px; margin-left: 20px; float: left;"></div> -->
+    </div>
+
+
+
+    <div class="cart-container">
+        <h1>סל קניות</h1>
+        <div id="output" style="margin-top: 30px; ">
+            <!-- Products details -->
+        </div>
+        <div class="summary">
+            <h3>סיכום הזמנה</h3>
+            <p>סך הכל לתשלום:  ₪<span id="total-price"></span></p>
+            <div class="checkout-btn" onclick="pay()">תשלום</div>
+            <p id="empty-cart-msg" style="display: none; color: red;">סל הקניות שלך ריק</p>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <h4>:לכל פניה ושאלה נשמח לענות בהקדם בכתובת</h4>
+        <h4>artPicture93@gmail.com</h4>
+    </div>
+
+
+    <script src="code.js"></script>
+</body>
+
+</html>

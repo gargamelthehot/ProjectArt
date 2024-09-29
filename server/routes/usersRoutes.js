@@ -13,6 +13,7 @@ router.post("/register", async (req, res) => {
     if (user) {
       return res.status(400).send({ error: "User already exists" });
     }
+
     user = new User({
       firstName,
       lastName,
@@ -56,7 +57,7 @@ router.put("/update/:id", async (req, res) => {
 
     return res.status(200).send({
       message: "User updated successfully",
-      user: { id: user._id, firstName: user.firstName,lastName:user.lastName, email: user.email },
+      user: { _id: user._id, firstName: user.firstName,lastName:user.lastName, email: user.email },
     });
 
   } catch (err) {
@@ -67,7 +68,7 @@ router.put("/update/:id", async (req, res) => {
 
 
 router.delete("/delete/:id", async (req, res) => {
-    const id = req.param.id;
+    const id = req.params.id;
   try {
     const user = await User.findByIdAndDelete(id);
     if(!user)
